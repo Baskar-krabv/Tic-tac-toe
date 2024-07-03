@@ -240,7 +240,7 @@ function strt() {
             box5.disabled = true;
             box7.disabled = true;
         }
-       if(va1=="O"&&val1=="X"&&va3=="O"&&val4=="X"&&va5=="O"&&val6=="X"&&val7=="X"&&val9=="X"&&va8=="O")
+       if(va1=="O"&&val2=="X"&&va3=="O"&&val4=="X"&&va5=="O"&&val6=="X"&&val7=="X"&&val9=="X"&&va8=="O")
        {
             res.textContent = "Match Die";
        }
@@ -319,7 +319,7 @@ function strt() {
             box5.disabled = true;
             box7.disabled = true;
         }
-           if(va1=="O"&&val1=="X"&&va3=="O"&&val4=="X"&&va5=="O"&&val6=="X"&&val7=="X"&&val9=="X"&&va8=="O")
+           if(va1=="O"&&val2=="X"&&va3=="O"&&val4=="X"&&va5=="O"&&val6=="X"&&val7=="X"&&val9=="X"&&va8=="O")
        {
             res.textContent = "Match Die";
        }
