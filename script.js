@@ -242,7 +242,7 @@ function strt() {
         }
         else
         {
-            res.textcontent="Match Draw";
+            res.textContent="Match Draw";
         }
 }
     function result1()
@@ -321,7 +321,7 @@ function strt() {
         }
           else
         {
-            res.textcontent="Match Draw";
+            res.textContent="Match Draw";
         }
     }
 }
