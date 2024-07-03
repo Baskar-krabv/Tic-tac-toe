@@ -177,7 +177,7 @@ function strt() {
             box8.disabled = true;
             box9.disabled = true;
         }
-        if (val4 == "X" && val5 == "X" && val6 == "X") {
+      else  if (val4 == "X" && val5 == "X" && val6 == "X") {
             res.textContent = "X is won";
             box1.disabled = true;
             box2.disabled = true;
@@ -186,7 +186,7 @@ function strt() {
             box8.disabled = true;
             box9.disabled = true;
         }
-        if (val7 == "X" && val8 == "X" && val9 == "X") {
+      else  if (val7 == "X" && val8 == "X" && val9 == "X") {
             res.textContent = "X is won";
             box1.disabled = true;
             box2.disabled = true;
@@ -195,7 +195,7 @@ function strt() {
             box5.disabled = true;
             box6.disabled = true;
         }
-        if (val1 == "X" && val5 == "X" && val9 == "X") {
+       else if (val1 == "X" && val5 == "X" && val9 == "X") {
             res.textContent = "X is won";
             box2.disabled = true;
             box3.disabled = true;
@@ -204,7 +204,7 @@ function strt() {
             box8.disabled = true;
             box6.disabled = true;
         }
-        if (val3 == "X" && val5 == "X" && val7 == "X") {
+       else if (val3 == "X" && val5 == "X" && val7 == "X") {
             res.textContent = "X is won";
             box2.disabled = true;
             box1.disabled = true;
@@ -213,7 +213,7 @@ function strt() {
             box6.disabled = true;
             box9.disabled = true;
         }
-        if (val1 == "X" && val4 == "X" && val7 == "X") {
+       else if (val1 == "X" && val4 == "X" && val7 == "X") {
             res.textContent = "x is won";
             box2.disabled = true;
             box3.disabled = true;
@@ -222,7 +222,7 @@ function strt() {
             box6.disabled = true;
             box9.disabled = true;
         }
-        if (val2 == "X" && val5 == "X" && val8 == "X") {
+        else if (val2 == "X" && val5 == "X" && val8 == "X") {
             res.textContent = "x is won";
             box3.disabled = true;
             box1.disabled = true;
@@ -231,7 +231,7 @@ function strt() {
             box6.disabled = true;
             box9.disabled = true;
         }
-        if (val3 == "X" && val6 == "X" && val9 == "X") {
+       else if (val3 == "X" && val6 == "X" && val9 == "X") {
             res.textContent = "X is won";
             box2.disabled = true;
             box1.disabled = true;
@@ -240,7 +240,7 @@ function strt() {
             box5.disabled = true;
             box7.disabled = true;
         }
-       if(val2=="X"&&val4=="X"&&val6=="X"&&val7=="X"&&val9=="X")
+      else
        {
             res.textContent = "Match Die";
        }
@@ -256,7 +256,7 @@ function strt() {
             box8.disabled = true;
             box9.disabled = true;
         }
-        if (va4 == "O" && va5 == "O" && va6 == "O") {
+       else if (va4 == "O" && va5 == "O" && va6 == "O") {
             res.textContent = "O is won";
             box1.disabled = true;
             box2.disabled = true;
@@ -265,7 +265,7 @@ function strt() {
             box8.disabled = true;
             box9.disabled = true;
         }
-        if (va7 == "O" && va8 == "O" && va9 == "O") {
+       else if (va7 == "O" && va8 == "O" && va9 == "O") {
             res.textContent = "O is won";
             box1.disabled = true;
             box2.disabled = true;
@@ -274,7 +274,7 @@ function strt() {
             box5.disabled = true;
             box6.disabled = true;
         }
-        if (va1 == "O" && va5 == "O" && va9 == "O") {
+        else if (va1 == "O" && va5 == "O" && va9 == "O") {
             res.textContent = "O is won";
             box2.disabled = true;
             box3.disabled = true;
@@ -292,7 +292,7 @@ function strt() {
             box6.disabled = true;
             box9.disabled = true;
         }
-        if (va1 == "O" && va4 == "O" && va7 == "O") {
+        else if (va1 == "O" && va4 == "O" && va7 == "O") {
             res.textContent = "O is won";
             box2.disabled = true;
             box3.disabled = true;
@@ -301,7 +301,7 @@ function strt() {
             box6.disabled = true;
             box9.disabled = true;
         }
-        if (va2 == "O" && va5 == "O" && va8 == "O") {
+        else if (va2 == "O" && va5 == "O" && va8 == "O") {
             res.textContent = "O is won";
             box3.disabled = true;
             box1.disabled = true;
@@ -310,7 +310,7 @@ function strt() {
             box6.disabled = true;
             box9.disabled = true;
         }
-        if (va3 == "O" && va6 == "O" && va9 == "O") {
+        else if (va3 == "O" && va6 == "O" && va9 == "O") {
             res.textContent = "O is won";
             box2.disabled = true;
             box1.disabled = true;
@@ -319,7 +319,7 @@ function strt() {
             box5.disabled = true;
             box7.disabled = true;
         }
-           if(va1=="O"&&va3=="O"&&va5=="O"&&va8=="O")
+        else
        {
             res.textContent = "Match Die";
        }
