@@ -214,7 +214,7 @@ function strt() {
             box9.disabled = true;
         }
         if (val1 == "X" && val4 == "X" && val7 == "X") {
-            res.textContent = "O is won";
+            res.textContent = "x is won";
             box2.disabled = true;
             box3.disabled = true;
             box5.disabled = true;
@@ -223,7 +223,7 @@ function strt() {
             box9.disabled = true;
         }
         if (val2 == "X" && val5 == "X" && val8 == "X") {
-            res.textContent = "O is won";
+            res.textContent = "x is won";
             box3.disabled = true;
             box1.disabled = true;
             box4.disabled = true;
@@ -232,13 +232,17 @@ function strt() {
             box9.disabled = true;
         }
         if (val3 == "X" && val6 == "X" && val9 == "X") {
-            res.textContent = "O is won";
+            res.textContent = "X is won";
             box2.disabled = true;
             box1.disabled = true;
             box4.disabled = true;
             box8.disabled = true;
             box5.disabled = true;
             box7.disabled = true;
+        }
+        else
+        {
+            res.textcontent="Match Draw";
         }
 }
     function result1()
@@ -314,6 +318,10 @@ function strt() {
             box8.disabled = true;
             box5.disabled = true;
             box7.disabled = true;
+        }
+          else
+        {
+            res.textcontent="Match Draw";
         }
     }
 }
