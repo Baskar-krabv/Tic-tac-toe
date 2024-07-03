@@ -240,7 +240,7 @@ function strt() {
             box5.disabled = true;
             box7.disabled = true;
         }
-        else
+       if (val3 != "X" && val6 != "X" && val9 != "X")
         {
             res.textContent="Match Draw";
         }
@@ -319,7 +319,7 @@ function strt() {
             box5.disabled = true;
             box7.disabled = true;
         }
-          else
+        if (va3 != "O" && va6 != "O" && va9 != "O")
         {
             res.textContent="Match Draw";
         }
